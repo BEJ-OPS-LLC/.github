@@ -50,7 +50,8 @@ None.
 
 ## How to work this task
 
-1. Where an outcome can be tested, write the failing test first and confirm it fails.
-2. Make the smallest change that achieves the outcomes.
+1. Where an outcome can be tested, write the failing test first and confirm it fails because the outcome is not met yet.
+2. Achieve each outcome properly, not just the appearance of it. Do not hard-code results, special-case test inputs, or weaken, skip or delete a test or check to make it pass.
 3. Tick an outcome only when you have verified it.
-4. Do not widen the scope; if an outcome is wrong or unclear, stop and ask on this issue.
+4. Stay within this task: nothing listed under Out of scope, and no unrelated refactoring.
+5. If an outcome is wrong, unclear or cannot be met properly, stop and ask on this issue instead of working around it.
