@@ -69,6 +69,7 @@ None.
 ## How to work this story
 
 1. Write a failing test for each scenario above, named after the scenario.
-2. Run the tests and confirm they fail for the expected reason.
-3. Implement the smallest change that makes them pass.
-4. Do not change the scenarios; if one is wrong or unclear, stop and ask on this issue.
+2. Run the tests and confirm they fail because the behaviour is missing, not because of a mistake in the test.
+3. Implement the behaviour the scenarios describe, in general, not only for the example values in the tests. Do not hard-code expected results, special-case test inputs, or weaken, skip or delete a test to make it pass.
+4. Stay within this story: nothing listed under Out of scope, and no unrelated refactoring.
+5. Do not change the scenarios. If one is wrong, unclear or cannot be met properly, stop and ask on this issue instead of working around it.
